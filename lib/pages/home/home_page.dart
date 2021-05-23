@@ -24,6 +24,26 @@ class HomePage extends StatelessWidget {
                 style: AppTextStyles.headingLigthGrey20,
               ),
             ),
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 20),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  CardSpotlightWidget(
+                    type: "Basics_Course",
+                    title: "Basics",
+                    category: "Course",
+                    time: "3-10 min",
+                  ),
+                  CardSpotlightWidget(
+                    type: "Relaxation_Music",
+                    title: "Relaxation",
+                    category: "Music",
+                    time: "3-10 min",
+                  ),
+                ],
+              ),
+            )
           ],
         ),
       ),
