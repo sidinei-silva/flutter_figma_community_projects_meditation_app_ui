@@ -8,6 +8,18 @@ class AppTextStyles {
     fontWeight: FontWeight.w700,
     letterSpacing: 3.84,
     fontSize: 16,
-    height: 0.21,
+  static final TextStyle heading28 = TextStyle(
+    fontFamily: 'Helvetica Nue',
+    color: AppColors.darkGray,
+    fontWeight: FontWeight.bold,
+    fontSize: 28,
+  );
+
+  static final TextStyle headingLigthGrey20 = TextStyle(
+    fontFamily: 'Helvetica Nue',
+    color: AppColors.ligthGray,
+    fontWeight: FontWeight.w300,
+    fontSize: 20,
+  );
   );
 }
