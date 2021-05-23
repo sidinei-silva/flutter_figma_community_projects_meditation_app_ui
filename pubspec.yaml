@@ -50,9 +50,22 @@ flutter:
   fonts:
     - family: Airbnb Cereal App
       fonts:
-        - asset: assets/fonts/AirbnbCerealBlack.ttf
-        - asset: assets/fonts/AirbnbCerealBold.ttf
-        - asset: assets/fonts/AirbnbCerealBook.ttf
-        - asset: assets/fonts/AirbnbCerealExtraBold.ttf
-        - asset: assets/fonts/AirbnbCerealLight.ttf
-        - asset: assets/fonts/AirbnbCerealMedium.ttf
+        - asset: assets/fonts/airbnb_cereal/AirbnbCerealBlack.ttf
+        - asset: assets/fonts/airbnb_cereal/AirbnbCerealBold.ttf
+        - asset: assets/fonts/airbnb_cereal/AirbnbCerealBook.ttf
+        - asset: assets/fonts/airbnb_cereal/AirbnbCerealExtraBold.ttf
+        - asset: assets/fonts/airbnb_cereal/AirbnbCerealLight.ttf
+        - asset: assets/fonts/airbnb_cereal/AirbnbCerealMedium.ttf
+    
+    - family: Helvetica Nue
+      fonts:
+        - asset: assets/fonts/helvetica_neue/HelveticaNeueBold.ttf
+        - asset: assets/fonts/helvetica_neue/HelveticaNeueBoldItalic.ttf
+        - asset: assets/fonts/helvetica_neue/HelveticaNeueCondensedBlack.ttf
+        - asset: assets/fonts/helvetica_neue/HelveticaNeueCondensedBold.ttf
+        - asset: assets/fonts/helvetica_neue/HelveticaNeueItalic.ttf
+        - asset: assets/fonts/helvetica_neue/HelveticaNeueLight.ttf
+        - asset: assets/fonts/helvetica_neue/HelveticaNeueLightItalic.ttf
+        - asset: assets/fonts/helvetica_neue/HelveticaNeueMedium.ttf
+        - asset: assets/fonts/helvetica_neue/HelveticaNeueUltraLight.ttf
+        - asset: assets/fonts/helvetica_neue/HelveticaNeueUltraLightItal.ttf
