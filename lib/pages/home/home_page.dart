@@ -47,7 +47,17 @@ class HomePage extends StatelessWidget {
                 ],
               ),
             ),
-            CoverSpotlightWidget()
+            CoverSpotlightWidget(),
+            SizedBox(
+              height: 20,
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 20),
+              child: Text(
+                "Recomended for you",
+                style: AppTextStyles.heading24,
+              ),
+            )
           ],
         ),
       ),

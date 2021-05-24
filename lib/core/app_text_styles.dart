@@ -17,6 +17,13 @@ class AppTextStyles {
     fontSize: 28,
   );
 
+  static final TextStyle heading24 = TextStyle(
+    fontFamily: 'Helvetica Nue',
+    color: AppColors.darkGray,
+    fontWeight: FontWeight.bold,
+    fontSize: 24,
+  );
+
   static final TextStyle headingLigthGrey20 = TextStyle(
     fontFamily: 'Helvetica Nue',
     color: AppColors.ligthGray,
