@@ -59,6 +59,14 @@ class AppTextStyles {
     letterSpacing: 0.8,
   );
 
+  static final TextStyle headingGray11 = TextStyle(
+    fontFamily: 'Helvetica Nue',
+    color: AppColors.ligthGray,
+    fontWeight: FontWeight.normal,
+    fontSize: 11,
+    letterSpacing: 0.8,
+  );
+
   static final TextStyle headingWhite11 = TextStyle(
     fontFamily: 'Helvetica Nue',
     color: AppColors.white,
