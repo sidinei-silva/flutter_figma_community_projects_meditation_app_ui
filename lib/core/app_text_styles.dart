@@ -98,4 +98,11 @@ class AppTextStyles {
     fontSize: 12,
     letterSpacing: 0.8,
   );
+
+  static final TextStyle bottomNavigation = TextStyle(
+    fontFamily: 'Helvetica Nue',
+    fontWeight: FontWeight.normal,
+    fontSize: 14,
+    letterSpacing: 0.8,
+  );
 }
