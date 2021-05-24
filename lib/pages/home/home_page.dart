@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:meditation_app_ui_882888114457713282/core/app_colors.dart';
+import 'package:meditation_app_ui_882888114457713282/core/app_images.dart';
 import 'package:meditation_app_ui_882888114457713282/core/app_text_styles.dart';
 import 'package:meditation_app_ui_882888114457713282/pages/home/widgets/app_bar/app_bar_widget.dart';
 import 'package:meditation_app_ui_882888114457713282/pages/home/widgets/card_spotlight/card_spotlight_widget.dart';
+import 'package:meditation_app_ui_882888114457713282/pages/home/widgets/cover_spotlight/cover_spotlight_widget.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -43,7 +46,8 @@ class HomePage extends StatelessWidget {
                   ),
                 ],
               ),
-            )
+            ),
+            CoverSpotlightWidget()
           ],
         ),
       ),

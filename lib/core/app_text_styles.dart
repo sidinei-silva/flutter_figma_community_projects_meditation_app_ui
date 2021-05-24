@@ -30,6 +30,12 @@ class AppTextStyles {
     fontWeight: FontWeight.bold,
     fontSize: 18,
   );
+  static final TextStyle headingWhite18 = TextStyle(
+    fontFamily: 'Helvetica Nue',
+    color: AppColors.white,
+    fontWeight: FontWeight.bold,
+    fontSize: 18,
+  );
 
   static final TextStyle headingDark18 = TextStyle(
     fontFamily: 'Helvetica Nue',
@@ -41,6 +47,14 @@ class AppTextStyles {
   static final TextStyle headingLight11 = TextStyle(
     fontFamily: 'Helvetica Nue',
     color: AppColors.lightPeach,
+    fontWeight: FontWeight.normal,
+    fontSize: 11,
+    letterSpacing: 0.8,
+  );
+
+  static final TextStyle headingWhite11 = TextStyle(
+    fontFamily: 'Helvetica Nue',
+    color: AppColors.white,
     fontWeight: FontWeight.normal,
     fontSize: 11,
     letterSpacing: 0.8,
