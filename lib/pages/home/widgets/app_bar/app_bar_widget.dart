@@ -5,7 +5,7 @@ import 'package:meditation_app_ui_882888114457713282/core/app_text_styles.dart';
 class AppBarWidget extends PreferredSize {
   AppBarWidget()
       : super(
-          preferredSize: Size.fromHeight(120),
+          preferredSize: Size.fromHeight(80),
           child: SafeArea(
             child: Center(
               child: Row(
